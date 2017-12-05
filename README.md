@@ -1,5 +1,7 @@
 # Christmas Tweet
 
+**See it in action on [YouTube](https://www.youtube.com/watch?v=zkIw0zPwgo8)!**
+
 This code will filter the Twitter streaming API for keywords and twinkle the corresponding 
 light on the [Pi Hut Christmas Tree](https://thepihut.com/products/3d-xmas-tree-for-raspberry-pi).
 
