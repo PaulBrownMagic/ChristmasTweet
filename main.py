@@ -5,7 +5,7 @@ from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 from tweepy import Stream
 
-from christmas_tree_twitter_auth import consumer_token, consumer_secret, access_token, access_token_secret
+from christmas_tree_twitter_auth import consumer_key, consumer_secret, access_token, access_token_secret
 
 
 class ChristmasTreeListener(StreamListener):
@@ -33,7 +33,7 @@ class ChristmasTreeListener(StreamListener):
 
 
 if __name__ == "__main__":
-    auth = OAuthHandler(consumer_token, consumer_secret)
+    auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
 
     listener = ChristmasTreeListener()
