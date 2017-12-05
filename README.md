@@ -30,4 +30,6 @@ program as a background task, run with the command:
 python3 main.py &
 ```
 
+The license is the free-software license, so you're free to take, use and adapt this code however you wish, so long as you keep it as free-software.
+
 Merry Christmas!
